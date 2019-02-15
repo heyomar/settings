@@ -1,5 +1,5 @@
 {
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
 
     "editor.fontSize": 14,
     "editor.fontFamily": "Fira Code",
@@ -22,5 +22,20 @@
     "emmet.triggerExpansionOnTab": true,
     "explorer.confirmDragAndDrop": false,
 
-    "vetur.validation.template": true
+    "vetur.validation.template": true,
+    "vetur.completion.useScaffoldSnippets": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+
+    "editor.formatOnSave": false,
+    "prettier.semi": false,
+    "prettier.printWidth": 85,
+    "prettier.useTabs": true,
+    "prettier.tabWidth": 2,
+    
+    "[javascript]": {
+      "editor.formatOnSave": true,
+    }
 }
