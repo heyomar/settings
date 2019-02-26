@@ -1,41 +1,45 @@
 {
-    "window.zoomLevel": 0,
+		"window.zoomLevel": 0,
 
-    "editor.fontSize": 14,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.wordWrap": "on",
-    "editor.tabSize": 2,
-    "editor.minimap.enabled": false,
-    "explorer.openEditors.visible": 0,
-    "editor.insertSpaces": true,
-    "editor.occurrencesHighlight": false,
-    "editor.snippetSuggestions": "top",
-    "editor.detectIndentation": false,
+		"editor.fontSize": 14,
+		"editor.fontFamily": "Fira Code",
+		"editor.fontLigatures": true,
+		"editor.wordWrap": "on",
+		"editor.detectIndentation": false,
+        "editor.tabSize": 2,
+        "editor.insertSpaces":false,
+		// "editor.lineHeight": 24,
+		// "editor.minimap.enabled": false,
+		// "editor.snippetSuggestions": "top",
+		"explorer.openEditors.visible": 0,
+		"editor.occurrencesHighlight": false,
 
-    "workbench.iconTheme": "ayu",
-    "workbench.statusBar.visible": true,
-    "workbench.sideBar.location": "left",
-    "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Ayu Mirage",
+		"workbench.iconTheme": "ayu",
+		"workbench.statusBar.visible": true,
+		"workbench.sideBar.location": "left",
+		"workbench.activityBar.visible": false,
+		"workbench.colorTheme": "Ayu Mirage",
 
-    "emmet.triggerExpansionOnTab": true,
-    "explorer.confirmDragAndDrop": false,
+		"emmet.triggerExpansionOnTab": true,
+		"explorer.confirmDragAndDrop": false,
 
-    "vetur.validation.template": true,
-    "vetur.completion.useScaffoldSnippets": false,
-    "liveServer.settings.donotShowInfoMsg": true,
+		"vetur.validation.template": true,
+		"vetur.completion.useScaffoldSnippets": false,
+		"liveServer.settings.donotShowInfoMsg": true,
 
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
+		"editor.scrollbar.horizontal": "hidden",
+		"editor.scrollbar.vertical": "hidden",
 
-    "editor.formatOnSave": false,
-    "prettier.semi": false,
-    "prettier.printWidth": 85,
-    "prettier.useTabs": true,
-    "prettier.tabWidth": 2,
-    
-    "[javascript]": {
-      "editor.formatOnSave": true,
-    }
+		"editor.formatOnSave": false,
+		"prettier.semi": false,
+		"prettier.printWidth": 85,
+		"prettier.useTabs": true,
+		"prettier.tabWidth": 2,
+		"prettier.singleQuote": true,
+		
+		"[javascript]": {
+			"editor.formatOnSave": true,
+		},
+		"editor.parameterHints.enabled": false,
+		
 }
