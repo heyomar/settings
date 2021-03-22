@@ -20,7 +20,8 @@
 	"editor.overviewRulerBorder": false,
 	"editor.folding": false,
 	"editor.glyphMargin": false,
-	"editor.matchBrackets": false,
+	"editor.matchBrackets": "never",
+	"editor.hover.enabled": false,
 	
 	// FONT & TEXT
 	"editor.fontSize": 13.5,
