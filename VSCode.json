@@ -1,45 +1,58 @@
 {
-		"window.zoomLevel": 0,
+	// GENERAL
+	"window.zoomLevel": 0,
+	"editor.dragAndDrop": false,
 
-		"editor.fontSize": 14,
-		"editor.fontFamily": "Fira Code",
-		"editor.fontLigatures": true,
-		"editor.wordWrap": "on",
-		"editor.detectIndentation": false,
-        "editor.tabSize": 2,
-        "editor.insertSpaces":false,
-		// "editor.lineHeight": 24,
-		// "editor.minimap.enabled": false,
-		// "editor.snippetSuggestions": "top",
-		"explorer.openEditors.visible": 0,
-		"editor.occurrencesHighlight": false,
+	// THEME
+	"workbench.iconTheme": "Monokai Classic Monochrome Icons",
+	"workbench.colorTheme": "Tokyo Night Storm",
 
-		"workbench.iconTheme": "ayu",
-		"workbench.statusBar.visible": true,
-		"workbench.sideBar.location": "left",
-		"workbench.activityBar.visible": false,
-		"workbench.colorTheme": "Ayu Mirage",
+	// UI
+	"workbench.activityBar.visible": false,
+	"workbench.statusBar.visible": false,
+	"workbench.editor.showIcons": false,
+	"breadcrumbs.enabled": false,
+	"editor.lineNumbers": "off",
+	"editor.minimap.enabled": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"explorer.openEditors.visible": 0,
+	"editor.overviewRulerBorder": false,
+	"editor.folding": false,
+	"editor.glyphMargin": false,
+	"editor.matchBrackets": false,
+	
+	// FONT & TEXT
+	"editor.fontSize": 13.5,
+	"editor.fontFamily": "Hack",
+	"editor.fontLigatures": true,
+	"editor.wordWrap": "on",
+	"editor.renderLineHighlight": "none",
 
-		"emmet.triggerExpansionOnTab": true,
-		"explorer.confirmDragAndDrop": false,
+	// FORMATING
+	"editor.renderWhitespace": "none",
+	"editor.detectIndentation": false,
+	"editor.tabSize": 3,
+	"editor.insertSpaces": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
 
-		"vetur.validation.template": true,
-		"vetur.completion.useScaffoldSnippets": false,
-		"liveServer.settings.donotShowInfoMsg": true,
+	// Plugin - TailWindCSS
+	"tailwindCSS.emmetCompletions": true,
 
-		"editor.scrollbar.horizontal": "hidden",
-		"editor.scrollbar.vertical": "hidden",
-
-		"editor.formatOnSave": false,
-		"prettier.semi": false,
-		"prettier.printWidth": 85,
-		"prettier.useTabs": true,
-		"prettier.tabWidth": 2,
-		"prettier.singleQuote": true,
-		
-		"[javascript]": {
-			"editor.formatOnSave": true,
-		},
-		"editor.parameterHints.enabled": false,
-		
+	// Plugin - Prettier
+	"prettier.semi": false,
+	"prettier.printWidth": 120,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 3,
+	"prettier.singleQuote": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	
+	// Plugin - Custom CSS/JS Loader
+	"vscode_custom_css.imports": ["file:///Users/omarrasool/Documents/vscodeui.css"]
 }
