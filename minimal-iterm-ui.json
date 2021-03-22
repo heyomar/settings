@@ -1,5 +1,5 @@
 {
-  "Custom Directory" : "Yes",
+  "Use Non-ASCII Font" : false,
   "Tags" : [
 
   ],
@@ -8,25 +8,21 @@
     "Red Component" : 0.74117647058823533,
     "Blue Component" : 0.97647058823529409
   },
-  "Ansi 7 Color" : {
-    "Green Component" : 0.73333334922790527,
-    "Red Component" : 0.73333334922790527,
-    "Blue Component" : 0.73333334922790527
+  "Ansi 6 Color" : {
+    "Green Component" : 0.9137254901960784,
+    "Red Component" : 0.54509803921568623,
+    "Blue Component" : 0.99215686274509807
   },
-  "Ansi 8 Color" : {
-    "Green Component" : 0.33333333333333331,
-    "Red Component" : 0.33333333333333331,
-    "Blue Component" : 0.33333333333333331
-  },
+  "Normal Font" : "VictorMono-Regular 14",
   "Bold Color" : {
     "Green Component" : 1,
     "Red Component" : 1,
     "Blue Component" : 1
   },
-  "Ansi 9 Color" : {
-    "Green Component" : 0.33333333333333331,
-    "Red Component" : 1,
-    "Blue Component" : 0.33333333333333331
+  "Ansi 2 Color" : {
+    "Green Component" : 0.98039215686274506,
+    "Red Component" : 0.31372549019607843,
+    "Blue Component" : 0.4823529411764706
   },
   "Ansi 4 Color" : {
     "Green Component" : 0.57647058823529407,
@@ -73,16 +69,16 @@
     "Red Component" : 0.97254902124404907,
     "Blue Component" : 0.94901961088180542
   },
-  "Working Directory" : "\/Users\/omarrasool\/projects\/",
+  "Working Directory" : "\/Users\/omarrasool\/code\/",
   "Blinking Cursor" : true,
-  "Space" : 0,
+  "Disable Window Resizing" : true,
   "Sync Title" : false,
   "Prompt Before Closing 2" : false,
   "BM Growl" : true,
   "Command" : "",
   "Description" : "Default",
   "Smart Cursor Color" : false,
-  "Disable Window Resizing" : true,
+  "Space" : 0,
   "Screen" : 0,
   "Selection Color" : {
     "Green Component" : 0.27843138575553894,
@@ -101,7 +97,7 @@
   "Custom Command" : "No",
   "ASCII Anti Aliased" : true,
   "Non Ascii Font" : "Monaco 12",
-  "Vertical Spacing" : 1.1088773060993977,
+  "Vertical Spacing" : 1.1100000000000001,
   "Use Bold Font" : true,
   "Option Key Sends" : 0,
   "Selected Text Color" : {
@@ -312,7 +308,7 @@
     "Blue Component" : 0.99215686274509807
   },
   "ASCII Ligatures" : true,
-  "Name" : "Default",
+  "Name" : "Github",
   "Cursor Text Color" : {
     "Red Component" : 1,
     "Color Space" : "sRGB",
@@ -328,13 +324,17 @@
     "Alpha Component" : 1,
     "Green Component" : 0.43137254901960786
   },
-  "Transparency" : 0,
-  "Guid" : "B6688459-2F31-44E0-B00D-FE9BE219339B",
   "Ansi 0 Color" : {
     "Green Component" : 0,
     "Red Component" : 0,
     "Blue Component" : 0
   },
+  "Ansi 1 Color" : {
+    "Green Component" : 0.3333333432674408,
+    "Red Component" : 1,
+    "Blue Component" : 0.3333333432674408
+  },
+  "Custom Directory" : "Yes",
   "Link Color" : {
     "Red Component" : 0,
     "Color Space" : "sRGB",
@@ -342,28 +342,28 @@
     "Alpha Component" : 1,
     "Green Component" : 0.35916060209274292
   },
-  "Ansi 1 Color" : {
-    "Green Component" : 0.3333333432674408,
-    "Red Component" : 1,
-    "Blue Component" : 0.3333333432674408
-  },
-  "Horizontal Spacing" : 0.96793227597891573,
-  "Use Non-ASCII Font" : false,
-  "Ansi 6 Color" : {
-    "Green Component" : 0.9137254901960784,
-    "Red Component" : 0.54509803921568623,
-    "Blue Component" : 0.99215686274509807
-  },
-  "Normal Font" : "Menlo-Regular 14",
+  "Transparency" : 0,
+  "Guid" : "B6688459-2F31-44E0-B00D-FE9BE219339B",
   "Ansi 3 Color" : {
     "Green Component" : 0.98039215686274506,
     "Red Component" : 0.94509803921568625,
     "Blue Component" : 0.5490196078431373
   },
-  "Ansi 2 Color" : {
-    "Green Component" : 0.98039215686274506,
-    "Red Component" : 0.31372549019607843,
-    "Blue Component" : 0.4823529411764706
+  "Ansi 7 Color" : {
+    "Green Component" : 0.73333334922790527,
+    "Red Component" : 0.73333334922790527,
+    "Blue Component" : 0.73333334922790527
   },
+  "Ansi 8 Color" : {
+    "Green Component" : 0.33333333333333331,
+    "Red Component" : 0.33333333333333331,
+    "Blue Component" : 0.33333333333333331
+  },
+  "Ansi 9 Color" : {
+    "Green Component" : 0.33333333333333331,
+    "Red Component" : 1,
+    "Blue Component" : 0.33333333333333331
+  },
+  "Horizontal Spacing" : 0.96999999999999997,
   "Right Option Key Sends" : 0
 }
