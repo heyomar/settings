@@ -1,5 +1,3 @@
-{{TOC}}
-
 # New Dev Machine
 A handy note-to-self of tools, apps, resources and customizations for setting-up a new web development computer.
 
