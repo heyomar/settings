@@ -45,10 +45,13 @@ ___
 - Cartograph CF
 
 ### iTerm UI
+
 ### Z-Shell Plugins
+```
+git wd npm safe-paste
+```
 ### VS Code
 #### Settings
-	
 	‌{
     // GENERAL
     "window.zoomLevel": 0,
@@ -94,6 +97,7 @@ ___
     "html.format.wrapAttributes": "force-aligned",
     "editor.renderLineHighlight": "all"
     }
+
 #### Themes
 - Nebula Theme
 - Ayu
@@ -102,8 +106,23 @@ ___
 - Pale Night
 - Tokyo Night
 - Noctis
+  
 #### Plugins
-- 
+- Auto Close Tag
+- Auto Rename Tag
+- Bracket Pair Colorizer
+- Code Spell Checker
+- Fluent Icons
+- Highlight Matching Tag
+- HTML Boilerplate
+- htmltagwrap
+- Live Server
+- Markdown All In One
+- Path Intellisense
+- Rainbow Brackets
+- Tailwind IntelliSense
+- VSCode Great Icons
+- Headwind
 
 ## App Library
 - Development
