@@ -1,5 +1,18 @@
 # New Dev Machine
 A handy note-to-self of tools, apps, resources and customizations for setting-up a new web development computer.
+- [New Dev Machine](#new-dev-machine)
+  - [Install](#install)
+    - [Terminal Packages](#terminal-packages)
+    - [Install Apps](#install-apps)
+  - [Customize](#customize)
+    - [Programming Fonts](#programming-fonts)
+    - [iTerm UI](#iterm-ui)
+    - [Z-Shell Plugins](#z-shell-plugins)
+    - [VS Code](#vs-code)
+      - [Settings](#settings)
+      - [Themes](#themes)
+      - [Plugins](#plugins)
+  - [App Library](#app-library)
 
 ## Install
 ### Terminal Packages
@@ -90,6 +103,7 @@ ___
 - Tokyo Night
 - Noctis
 #### Plugins
+- 
 
 ## App Library
 - Development
