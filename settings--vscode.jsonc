@@ -9,7 +9,6 @@
     "workbench.colorTheme": "Noctis Uva",
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.activityBar.visible": false,
-    "workbench.statusBar.visible": false,
     "workbench.editor.showIcons": false,
     // EDITOR
     "editor.dragAndDrop": false,
@@ -19,29 +18,60 @@
     "editor.scrollbar.vertical": "hidden",
     "editor.mouseWheelScrollSensitivity": 2,
     "editor.smoothScrolling": true,
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.overviewRulerBorder": false,
-    "editor.folding": false,
+    "editor.folding": true,
     "editor.glyphMargin": false,
     "editor.fontFamily": "Cartograph CF",
     "editor.fontLigatures": true,
-    "editor.wordWrap": "bounded",
+    "editor.wordWrap": "on",
     "editor.detectIndentation": false,
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.snippetSuggestions": "top",
     "editor.suggestFontSize": 12,
-    "editor.wordWrapColumn": 120,
+    "editor.wordWrapColumn": 100,
     "emmet.triggerExpansionOnTab": true,
-    "html.format.wrapAttributes": "force-aligned",
     "editor.renderLineHighlight": "all",
     "editor.quickSuggestionsDelay": 10,
-    "editor.hover.enabled": false,
+    "editor.hover.enabled": true,
     "explorer.confirmDelete": false,
     // ZEN MODE
     "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": false,
-    "zenMode.fullScreen": false
+    "zenMode.fullScreen": false,
+    "explorer.confirmDragAndDrop": false,
+    "htmltagwrap.tag": "div",
+    "html.format.wrapAttributes": "force",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "cSpell.enableFiletypes": [
+        "vue"
+    ],
+    // VETUR
+    "prettier.semi": false,
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.options.useTabs": false,
+    "vetur.format.scriptInitialIndent": true,
+    "vetur.format.styleInitialIndent": true,
+    "vetur.validation.templateProps": true,
+    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatterOptions": {
+        "prettier.semi": false,
+        "prettier": {
+            "semi": false
+        },
+        "js-beautify-html": {
+            "wrap_attributes": "force-aligned"
+        }
+    },
+    "editor.minimap.maxColumn": 100
 }
